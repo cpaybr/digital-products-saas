@@ -1,0 +1,14 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "products": {
+    "title": "Products",
+    "create": "Create Product",
+    "price": "Price",
+    "description": "Description"
+  }
+}

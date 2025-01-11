@@ -1,0 +1,14 @@
+{
+  "common": {
+    "welcome": "Bem-vindo",
+    "login": "Entrar",
+    "register": "Registrar",
+    "logout": "Sair"
+  },
+  "products": {
+    "title": "Produtos",
+    "create": "Criar Produto",
+    "price": "Preço",
+    "description": "Descrição"
+  }
+}
