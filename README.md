@@ -1,92 +1,46 @@
-# Digital Products SaaS
+# demo2
 
-Uma plataforma SaaS completa desenvolvida com Next.js para criação e gerenciamento de lojas de produtos digitais. Suporte nativo a múltiplos idiomas (PT-BR, EN-US, ES) e integração com Supabase para autenticação e armazenamento.
+This template should help get you started developing with Vue 3 in Vite.
 
-## 🚀 Funcionalidades
+## Recommended IDE Setup
 
-- 🔐 **Painel Administrativo**
-  - Gerenciamento de planos
-  - Administração de usuários
-  - Personalização de marca
-  - Relatórios e análises
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-- 👥 **Área do Usuário**
-  - Registro e autenticação
-  - Gerenciamento de produtos
-  - Upload de arquivos
-  - Histórico de vendas
+## Type Support for `.vue` Imports in TS
 
-- 🛍️ **Produtos**
-  - Cadastro de produtos digitais
-  - Upload seguro de arquivos
-  - Página personalizada do produto
-  - Sistema de download protegido
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-- 💳 **Checkout**
-  - Processo de compra simplificado
-  - Integração com gateway de pagamento
-  - Entrega automática de produtos
-  - Emails de confirmação
+If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
-## 🛠️ Tecnologias
+1. Disable the built-in TypeScript Extension
+    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
-- **Frontend**
-  - Next.js 14
-  - React 18
-  - TypeScript
-  - Tailwind CSS
-  - next-intl (Internacionalização)
+## Customize configuration
 
-- **Backend/Infraestrutura**
-  - Supabase
-    - Autenticação
-    - Banco de dados PostgreSQL
-    - Storage para arquivos
-  - Edge Functions
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-- **DevOps**
-  - GitHub Actions
-  - Vercel (Deploy e hospedagem)
+## Project Setup
 
-## 🌎 Suporte a Idiomas
-
-- 🇧🇷 Português (Brasil)
-- 🇺🇸 Inglês (EUA)
-- 🇪🇸 Espanhol
-
-## 📦 Requisitos
-
-- Node.js 18+
-- npm ou yarn
-- Conta no Supabase
-- Conta na Vercel (para deploy)
-
-## 🚀 Como executar
-
-1. Clone o repositório
-```bash
-git clone [url-do-repositorio]
-```
-
-2. Instale as dependências
-```bash
+```sh
 npm install
 ```
 
-3. Configure as variáveis de ambiente
-```bash
-cp .env.example .env.local
-```
+### Compile and Hot-Reload for Development
 
-4. Execute o projeto
-```bash
+```sh
 npm run dev
 ```
 
-## 📝 Licença
+### Type-Check, Compile and Minify for Production
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+```sh
+npm run build
+```
 
-## 👥 Contribuição
+### Lint with [ESLint](https://eslint.org/)
 
-Contribuições são sempre bem-vindas! Por favor, leia o [CONTRIBUTING.md](CONTRIBUTING.md) primeiro.
+```sh
+npm run lint
+```
